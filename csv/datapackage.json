@@ -1,0 +1,78 @@
+{
+  "sources": [
+    {
+      "web": "http://data.nytimes.com/", 
+      "name": "Evan Sandhaus, Rob Larson", 
+      "email": "evan@nytimes.com"
+    }
+  ], 
+  "extras": {
+    "triples": 345889, 
+    "namespace": "http://data.nytimes.com/", 
+    "links:freebase": 10302, 
+    "links:geonames-semantic-web": 3039, 
+    "shortname": "New York Times", 
+    "links:dbpedia": 10359
+  }, 
+  "description": "### About\r\n\r\nFrom website:\r\n\r\n> For the last 150 years, The New York Times  has maintained  one of the most  authoritative news vocabularies  ever developed. In 2009, we began to publish this vocabulary as linked open data.", 
+  "license": {
+    "url": "http://www.opendefinition.org/licenses/cc-by", 
+    "type": "cc-by", 
+    "title": "Creative Commons Attribution"
+  }, 
+  "title": "New York Times - Linked Open Data", 
+  "keywords": [
+    "deref-vocab", 
+    "format-rdf", 
+    "format-skos", 
+    "format-time", 
+    "linked-open-data", 
+    "lod", 
+    "lodcloud-diagram-2011-09-19", 
+    "lodcloud-diagram-2014-08-30", 
+    "media", 
+    "no-license-metadata", 
+    "no-provenance-metadata", 
+    "no-vocab-mappings", 
+    "publications", 
+    "published-by-producer", 
+    "semantic", 
+    "semanticweb"
+  ], 
+  "author": {
+    "email": "evan@nytimes.com"
+  }, 
+  "resources": [
+    {
+      "path": "http://data.nytimes.com/people.rdf", 
+      "description": "People (SKOS)", 
+      "name": "1610e7b1-f8d2-4089-8d4a-0180ec8730f2", 
+      "format": "RDF"
+    }, 
+    {
+      "path": "http://data.nytimes.com/organizations.rdf", 
+      "description": "Organizations (SKOS)", 
+      "name": "7397105a-b4ac-4869-b2e2-263ef9b1792c", 
+      "format": "RDF"
+    }, 
+    {
+      "path": "http://data.nytimes.com/locations.rdf", 
+      "description": "Locations (SKOS)", 
+      "name": "6eb1070b-1348-435e-a739-2ddfaf6bd9b2", 
+      "format": "RDF"
+    }, 
+    {
+      "path": "http://data.nytimes.com/descriptors.rdf", 
+      "description": "Subject descriptors (SKOS)", 
+      "name": "ad31ecc1-d0d4-443a-808f-0b6d2191a1d5", 
+      "format": "RDF"
+    }, 
+    {
+      "path": "http://data.nytimes.com/57525341647327480183", 
+      "description": "Example URI", 
+      "name": "5fb750ca-9781-40e3-b675-9eec63880062", 
+      "format": "example/rdf+xml"
+    }
+  ], 
+  "name": "nytimes-linked-open-data"
+}
